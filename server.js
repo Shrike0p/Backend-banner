@@ -10,8 +10,8 @@ app.use(express.json());
 
 // Get Banner Details
 app.get('/api/banner', async (req, res) => {
-    const banner = await prisma.banner.findFirst();
-    res.json(banner);
+    // const banner = await prisma.banner.findFirst();
+    res.json("banner");
 });
 
 // Update Banner Details
